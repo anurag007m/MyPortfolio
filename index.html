@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anurag-Developer Portfolio</title>
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="left">Anurag's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, My name is <span class="purple">Anurag</span>
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+          <div class="button">
+            <button class="btn">Download Resume</button>
+            <button class="btn">
+              <a href="https://github.com/anurag007m">Visit GitHub</a>
+            </button>
+          </div>
+        </div>
+
+        <div class="rightSection">
+          <img src="bg.jpg" alt="developer" />
+        </div>
+      </section>
+
+      <hr />
+
+      <section class="secondSection">
+        <span>What I have done so far</span>
+        <h1>Work Experience</h1>
+        <div class="box">
+          <div class="vertical"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Anurag's Developer Portfolio</h3>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li>Home</li>
+            <li>Services</li>
+            <li>About Me</li>
+            <li>Contact Me</li>
+          </ul>
+        </div>
+        <div class="third">
+          <ul>
+            <li>Home</li>
+            <li>Services</li>
+            <li>About Me</li>
+            <li>Contact Me</li>
+          </ul>
+        </div>
+        <div class="fourth">
+          <ul>
+            <li>Home</li>
+            <li>Services</li>
+            <li>About Me</li>
+            <li>Contact Me</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-rights">&copy; Anurag007m | All rights reserved</div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["<i>Web Designer</i>", "Web Developer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
